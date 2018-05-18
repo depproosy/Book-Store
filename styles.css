@@ -1,0 +1,24 @@
+body {
+    background-color: paleturquoise;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-family: cursive;
+    font-size-adjust: auto;
+    text-decoration-color: blanchedalmond;
+    color: cadetblue;
+    font-size: 25;
+
+}
+
+.header-image {
+    height: 100px;
+    width: 25%;
+    align-content: center;
+}
