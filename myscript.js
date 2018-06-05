@@ -29,4 +29,28 @@ function createBook(book) {
 
     flipFront.append(frontImage);
 
+
+
+    var title = document.createElement("h3");
+
+    flipBack.innerHTML = book.descripcion;
+
+    var buttonId = document.createElement("button");
+    buttonId.className = "button-click";
+    buttonId.innerHTML = "More info";
+    buttonId.setAttribute("data-fancybox", "group");
+    buttonId.setAttribute("href", book.detalle);
+
+    flipBack.append(buttonId);
+
+    // Build elements
+
+    flip.append(flipFront, flipBack);
+    flipBodies.appendChild(flip);
+
+
 }
+
+$("[data-fancybox]").fancybox({
+
+});
