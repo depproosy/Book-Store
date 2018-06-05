@@ -1,24 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim');
+
 body {
-    background-color: paleturquoise;
+    background-color: dimgray;
+    font-family: 'Anaheim', sans-serif;
+    /*background-image: url(images/tobias-fischer-185900-unsplash.jpg);*/
+    text-decoration-color: #fff;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-top: 15px;
+
 }
 
-header {
+.main-header {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.main-title {
-    font-family: cursive;
-    font-size-adjust: auto;
-    text-decoration-color: blanchedalmond;
-    color: cadetblue;
-    font-size: 25;
+    background-image: url(images/tom-hermans-264015-unsplash.jpg);
+    background-size: cover;
 
 }
 
 .header-image {
-    height: 100px;
-    width: 25%;
-    align-content: center;
+    height: 253px;
+    width: 500px;
+    padding-right: 25px;
+    padding-top: 15px;
+
+}
+
+.main-title {
+    padding-left: 25px;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+
+
+#flipBodies {
+    margin-top: 20px;
 }
